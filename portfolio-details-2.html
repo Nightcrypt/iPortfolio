@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Inner Page - iPortfolio Bootstrap Template</title>
+  <title>Portfolio Details - iPortfolio Bootstrap Template</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -58,11 +58,11 @@
 
       <nav id="navbar" class="nav-menu navbar">
         <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Acceuil</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>A propos</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Résumé</span></a></li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+            <li><a href="index.html#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Acceuil</span></a></li>
+            <li><a href="index.html#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>A propos</span></a></li>
+            <li><a href="index.html#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Résumé</span></a></li>
+            <li><a href="index.html#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+            <li><a href="index.html#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
     </div>
@@ -71,47 +71,75 @@
   <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
-    <section class="breadcrumbs">
+    <section id="breadcrumbs" class="breadcrumbs">
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Inner Page</h2>
+          <h2>Portfolio Details</h2>
           <ol>
             <li><a href="index.html">Acceuil</a></li>
-            <li>Inner Page</li>
+            <li>Portfolio Details</li>
           </ol>
         </div>
 
       </div>
     </section><!-- End Breadcrumbs -->
 
-    <section class="inner-page">
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
       <div class="container">
-        <p>
-          Example inner page template
-        </p>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper-container">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-details-2-1.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-details-2-2.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-details-2-3.jpg" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+                <div class="portfolio-info">
+                    <h3>Information sur le projet</h3>
+                    <ul>
+                        <li><strong>Categorie</strong>: Appplication Web</li>
+                        <li><strong>Client</strong>: clinique Anne-Maire Ndong</li>
+                        <li><strong>Date du projet</strong>: 11 janvier 2021</li>
+                    </ul>
+                </div>
+                <div class="portfolio-description">
+                    <p>
+                        Programme de gestion de la clinique du Dr. Anne-Marie Ndong situe au quartier Akwa-Douala avec pour fonctionnalites : 
+                    <ul>
+                        <li>Listes des patients</li>
+                        <li>Calendrier des rendrez-vous</li>
+                        <li>Etat des patients et reports medicaux</li>
+                        <li>Sauvegarde et actualisation de l'etat des patients</li>
+                    </ul> 
+                    </p>
+                </div>
+            </div>
+        </div>
+
       </div>
-    </section>
+    </section><!-- End Portfolio Details Section -->
 
   </main><!-- End #main -->
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>iPortfolio</span></strong>
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
-  </footer><!-- End  Footer -->
-
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
